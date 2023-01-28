@@ -1,0 +1,32 @@
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primary-font);
+  padding: 2rem;
+}
+
+.menu li {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--dark-Violet);
+}
+
+.menu ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav .a-border {
+  border: solid 1px var(--dark-Violet);
+  padding: 1rem 2.4rem 1rem;
+}
+nav .a-border:hover {
+  background-color: var(--dark-Violet);
+  color: var(--very-Light-Gray);
+  transition: 0.2s;
+}

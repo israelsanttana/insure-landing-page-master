@@ -1,0 +1,37 @@
+@import url(./component.css);
+@import url(./header.css);
+
+:root {
+  --dark-Violet: hsl(256, 26%, 20%);
+  --grayish-Blue: hsl(216, 30%, 68%);
+  --very-Dark-Violet: hsl(270, 9%, 17%);
+  --dark-Grayish-Violet: hsl(273, 4%, 51%);
+  --very-Light-Gray: hsl(0, 0%, 98%);
+  --primary-font: Karla;
+  --secondary-font: DM + Serif + Display;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.primary {
+  display: flex;
+  justify-content: center;
+}
