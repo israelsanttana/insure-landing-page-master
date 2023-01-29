@@ -22,6 +22,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  background-color: var(--very-Light-Gray);
 }
 
 header,
@@ -29,9 +30,5 @@ main,
 footer {
   width: 100%;
   max-width: 1440px;
-}
-
-.primary {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
