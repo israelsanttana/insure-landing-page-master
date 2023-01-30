@@ -60,3 +60,7 @@ nav .a-border:hover {
   line-height: 6rem;
   color: var(--very-Light-Gray);
 }
+
+.content-header-text div hr {
+  width: 31%;
+}
