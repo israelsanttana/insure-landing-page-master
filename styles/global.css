@@ -1,6 +1,7 @@
 @import url(./component.css);
 @import url(./header.css);
 @import url(./main.css);
+@import url(./section.css);
 
 :root {
   --dark-Violet: hsl(256, 26%, 20%);

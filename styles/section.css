@@ -1,0 +1,56 @@
+.secondary-content {
+  display: flex;
+  justify-content: center;
+}
+
+.different h2 {
+  font-size: 7rem;
+  color: var(--dark-Violet);
+  margin-top: 7rem;
+}
+
+.different hr {
+  width: 15%;
+  background-color: var(--dark-Violet);
+  height: 3px;
+}
+
+.different-content {
+  display: flex;
+  gap: 4rem;
+  margin-top: 10rem;
+}
+
+.different-content div {
+  padding: 1rem;
+}
+
+.different-content div h2 {
+  margin-top: 2rem;
+  color: var(--dark-Violet);
+}
+
+.different-content div p {
+  margin-top: 2rem;
+  font-family: var(--primary-font);
+  color: var(--dark-Grayish-Violet);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.work {
+  width: 100%;
+  height: 24rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 12rem;
+  background-color: var(--dark-Violet);
+}
+
+.work h2 {
+  font-size: 6rem;
+  line-height: 5rem;
+  color: var(--very-Light-Gray);
+}
