@@ -38,29 +38,60 @@ nav .a-border:hover {
 }
 
 .content-header {
+  height: 60rem;
   display: flex;
   justify-content: center;
   background-color: var(--dark-Violet);
+  align-items: center;
+  position: relative;
+}
+
+#bkg-topo {
+  position: absolute;
+  right: 0;
+  top: -7rem;
 }
 
 .show-case {
   display: flex;
+  margin-bottom: -26rem;
+  gap: 2rem;
 }
 
 .content-header-text {
   width: 100%;
   display: flex;
   flex: 1;
-  align-items: center;
-  padding: 2rem;
+}
+.content-header-text div hr {
+  width: 31%;
 }
 
 .content-header-text div h2 {
   font-size: 7rem;
   line-height: 6rem;
   color: var(--very-Light-Gray);
+  margin-top: 7rem;
 }
 
-.content-header-text div hr {
-  width: 31%;
+.content-header-text div p {
+  color: var(--very-Light-Gray);
+  margin-top: 2.4rem;
+  line-height: 2.6rem;
+  font-family: var(--primary-font);
+}
+
+#view-plans {
+  background: transparent;
+  border: solid 1px var(--very-Light-Gray);
+  color: var(--very-Light-Gray);
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  margin-top: 3rem;
+}
+#view-plans:hover {
+  background-color: var(--very-Light-Gray);
+  color: var(--dark-Violet);
+  cursor: pointer;
+  transition: 0.2s;
 }
