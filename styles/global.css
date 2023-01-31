@@ -1,5 +1,6 @@
 @import url(./component.css);
 @import url(./header.css);
+@import url(./main.css);
 
 :root {
   --dark-Violet: hsl(256, 26%, 20%);
@@ -25,8 +26,6 @@ body {
   background-color: var(--very-Light-Gray);
 }
 
-header,
-main,
 footer {
   width: 100%;
   max-width: 1440px;
