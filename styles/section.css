@@ -1,6 +1,12 @@
+section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .secondary-content {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .different h2 {
@@ -44,13 +50,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 4rem 8rem 4rem;
   margin-top: 12rem;
   background-color: var(--dark-Violet);
+  background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .work h2 {
   font-size: 6rem;
   line-height: 5rem;
   color: var(--very-Light-Gray);
+}
+
+.work div button {
+  background: transparent;
+  border: solid 2px var(--very-Light-Gray);
+  color: var(--very-Light-Gray);
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  margin-top: 3rem;
+}
+
+.work div button:hover {
+  background-color: var(--very-Light-Gray);
+  color: var(--dark-Violet);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#bkg-meio {
+  position: absolute;
+  left: 0;
+  top: -47rem;
 }
