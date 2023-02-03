@@ -27,5 +27,26 @@ body {
   font-size: 1.6rem;
 }
 
-@media (max-width: 124px) {
+@media (max-width: 1170px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1169px) {
+  .nav,
+  #bkg-topo,
+  #bkg-meio {
+    display: none;
+  }
+
+  .show-case {
+    flex-direction: column-reverse;
+    height: 100rem;
+  }
+
+  .content-main-text {
+    height: 80rem;
+    background-color: var(--dark-Violet);
+  }
 }
