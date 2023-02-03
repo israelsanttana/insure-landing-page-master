@@ -40,13 +40,34 @@ body {
     display: none;
   }
 
+  main {
+    height: 130rem;
+  }
+
+  .content-main {
+    height: 118rem;
+  }
+
+  .content-main-bkg {
+    height: 80rem;
+  }
+
   .show-case {
     flex-direction: column-reverse;
     height: 100rem;
   }
 
   .content-main-text {
-    height: 80rem;
+    height: auto;
     background-color: var(--dark-Violet);
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .content-main-text hr {
+    display: none;
+  }
+
+  .footer-links {
+    flex-direction: column;
   }
 }
