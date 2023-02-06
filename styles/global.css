@@ -41,20 +41,21 @@ body {
   }
 
   main {
-    height: 130rem;
   }
 
   .content-main {
-    height: 118rem;
+    height: 100rem;
   }
 
   .content-main-bkg {
-    height: 80rem;
+    display: flex;
+    justify-content: center;
   }
 
   .show-case {
     flex-direction: column-reverse;
-    height: 100rem;
+    margin-bottom: 0;
+    gap: 0;
   }
 
   .content-main-text {
