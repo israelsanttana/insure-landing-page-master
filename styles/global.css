@@ -41,10 +41,11 @@ body {
   }
 
   main {
+    height: auto;
   }
 
   .content-main {
-    height: 100rem;
+    height: auto;
   }
 
   .content-main-bkg {
@@ -59,11 +60,16 @@ body {
   }
 
   .content-main-text {
-    height: auto;
     background-color: var(--dark-Violet);
     text-align: center;
-    margin-bottom: 4rem;
   }
+
+  .content-main-text div {
+    height: 50rem;
+    margin: 2rem;
+    padding: 1rem;
+  }
+
   .content-main-text hr {
     display: none;
   }
