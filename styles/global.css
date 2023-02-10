@@ -65,9 +65,18 @@ body {
   }
 
   .content-main-text div {
-    height: 50rem;
+    height: 55rem;
     margin: 2rem;
     padding: 1rem;
+  }
+
+  .content-main-text div h1 {
+    font-size: 6rem;
+  }
+
+  .content-main-text div p {
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
   .content-main-text hr {
@@ -76,5 +85,30 @@ body {
 
   .footer-links {
     flex-direction: column;
+  }
+
+  .different-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .different {
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  .different hr {
+    display: none;
+  }
+
+  .different-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
   }
 }
