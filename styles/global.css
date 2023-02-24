@@ -37,8 +37,61 @@ body {
   .menu-mobile {
     display: block;
   }
+  header {
+    position: relative;
+  }
 
-  .nav,
+  .menu-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: start;
+    z-index: 1;
+    background-color: var(--very-Dark-Violet);
+    background-image: url(/images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+  }
+
+  .menu-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--very-Light-Gray);
+    padding: 2rem;
+    align-items: center;
+    
+
+  }
+
+  .menu {
+    flex-direction: column;
+    height: 20rem;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .menu li a {
+    color: var(--very-Light-Gray);
+    font-size: 3rem;
+  }
+  .nav {
+    margin-top: 6rem;
+  }
+
+  nav .a-border{
+    border: solid 1px var(--very-Light-Gray);
+    padding: 1rem  6rem;
+  }
+
+  
   #bkg-topo,
   #bkg-meio {
     display: none;
