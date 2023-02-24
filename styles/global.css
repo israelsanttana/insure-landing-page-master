@@ -49,7 +49,7 @@ body {
     align-items: start;
     z-index: 1;
     background-color: var(--very-Dark-Violet);
-    background-image: url(/images/bg-pattern-mobile-nav.svg);
+    background-image: url(../images/bg-pattern-mobile-nav.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0rem 64rem;;
