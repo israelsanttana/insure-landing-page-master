@@ -27,6 +27,14 @@ body {
   font-size: 1.6rem;
 }
 
+.active {
+  display: block !important;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (max-width: 1170px) {
   html {
     font-size: 50%;
@@ -41,19 +49,9 @@ body {
     position: relative;
   }
 
-  .menu-content {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    align-items: start;
-    z-index: 1;
-    background-color: var(--very-Dark-Violet);
-    background-image: url(../images/bg-pattern-mobile-nav.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0rem 63rem;
-
+  .menu {
+    flex-direction: column;
+    
   }
 
   .menu-nav {
@@ -63,13 +61,6 @@ body {
     background-color: var(--very-Light-Gray);
     padding: 2rem;
     align-items: center;
-    
-
-  }
-
-  .menu {
-    flex-direction: column;
-    height: 20rem;
   }
 
   .menu ul {
@@ -82,7 +73,21 @@ body {
     color: var(--very-Light-Gray);
     font-size: 3rem;
   }
+
   .nav {
+    display: none;
+    width: 100%;
+    margin-top: 8rem;
+    position: absolute;
+    height: 100vh;
+    z-index: 1;
+    background-color: var(--very-Dark-Violet);
+    background-image: url(../images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0rem 63rem;
+  }
+  nav {
     margin-top: 6rem;
   }
 
@@ -91,7 +96,7 @@ body {
     padding: 1rem  6rem;
   }
 
-  
+  #close,
   #bkg-topo,
   #bkg-meio {
     display: none;

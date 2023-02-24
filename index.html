@@ -24,7 +24,7 @@
   </head>
   <body>
     <header>
-      <div class="menu-content">
+      <div class="menu-content" >
         <div class="container">
           <div class="menu">
             <div class="menu-nav">
@@ -32,10 +32,11 @@
                 <a href="#"><img src="./images/logo.svg" alt="" /></a>
               </div>
               <div class="menu-mobile">
-                <img src="./images/icon-hamburger.svg" alt="" />
+                <span id="open"><img src="./images/icon-hamburger.svg" /></span>
+                <span id="close"><img src="./images/icon-close.svg" /></span>
               </div>
             </div>
-            <div class="nav">
+            <div class="nav" id="nav">
               <nav>
                 <ul>
                   <li><a href="#">HOW WE WORK</a></li>
@@ -195,5 +196,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
