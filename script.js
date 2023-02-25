@@ -1,13 +1,29 @@
-const open = document.getElementById("open");
-const close = document.getElementById('close');
 
-open.addEventListener('click', openMenu);
-close.addEventListener('click', openMenu);
+
+const openButton = document.getElementById("open");
+const closeButton = document.getElementById('close');
+const nav = document.getElementById('nav');
+const body = document.body;
+
+openButton.addEventListener('click', openMenu);
+closeButton.addEventListener('click', closeMenu);
 
 function openMenu() {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active');
-    open.classList.toggle('hidden');
-    close.classList.toggle('active');
+    nav.classList.add('active');
+    openButton.classList.add('hidden');
+    closeButton.classList.add('active');
+    body.classList.add('no-scroll');
+    window.addEventListener('scroll', closeMenuOnScroll);
+}
 
+function closeMenu() {
+    nav.classList.remove('active');
+    openButton.classList.remove('hidden');
+    closeButton.classList.remove('active');
+    body.classList.remove('no-scroll');
+    window.removeEventListener('scroll', closeMenuOnScroll);
+}
+
+function closeMenuOnScroll() {
+    closeMenu();
 }
